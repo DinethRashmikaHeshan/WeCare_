@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color or image */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Container for the header content */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ll
+{
+    text-align: left;
+}
+
+/* Style the logo */
+.logo {
+    width: 100px; /* Adjust the width to your preferred size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+
+/* Style the header text */
+.header h1 {
+    font-size: 2em;
+}
+
+/* Logo on the left */
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Navigation Menu */
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Center the content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Adjust according to header and footer height */
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the link to registration */
+.login-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Style the Login button */
+input[type="submit"][name="submit"] {
+    background-color: #007BFF; /* Background color when not hovered */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+input[type="submit"][name="submit"]:hover {
+    background-color: #0056b3; /* Background color on hover */
+}
+
