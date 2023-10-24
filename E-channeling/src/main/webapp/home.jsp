@@ -26,8 +26,8 @@
 
     <div class="content">
         <div class="login-container">
-        <form action="" method="post">    
-            <h2>Login</h2>
+        <form action="">
+        <h2>Login</h2>
             <div class="form-group">
                 <label class="ll" for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
@@ -38,8 +38,8 @@
             </div>
             <input type = "submit" name = "submit" value = "Login">
             <p>Don't have an account? <a href="registration.html">Register for E-Channeling</a></p>
-        </div>
         </form>
+        </div>
     </div>
 
     <footer class="footer">
