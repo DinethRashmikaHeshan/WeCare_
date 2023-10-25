@@ -26,7 +26,7 @@
 
     <div class="content">
         <div class="login-container">
-        <form action="">
+        <form action="log" method="post">
         <h2>Login</h2>
             <div class="form-group">
                 <label class="ll" for="username">Username:</label>
